@@ -1,8 +1,8 @@
 ---
-id: doc1
-title: Style Guide
-sidebar_label: Style Guide
-slug: /
+id: stats2
+title: mc-stats 2
+sidebar_label: mc-stats 2
+slug: /mc-stats/2
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

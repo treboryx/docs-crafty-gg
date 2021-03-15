@@ -1,8 +1,8 @@
 ---
-id: doc1
-title: Style Guide
-sidebar_label: Style Guide
-slug: /
+id: bot2
+title: BOT 2
+sidebar_label: BOT 2
+slug: /bot/2
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

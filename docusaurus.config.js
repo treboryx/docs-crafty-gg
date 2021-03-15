@@ -1,14 +1,14 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Crafty",
+  tagline: "Crafty Documentation",
+  url: "https://docs.crafty.gg",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  favicon: "img/main.png",
+  organizationName: "craftygg", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Crafty Docs",
@@ -38,11 +38,15 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Style Guide",
+              label: "Bot",
               to: "/",
             },
             {
-              label: "Second Doc",
+              label: "API",
+              to: "/doc2/",
+            },
+            {
+              label: "mc-stats",
               to: "/doc2/",
             },
           ],
@@ -51,16 +55,12 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://crafty.gg/discord",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://crafty.gg/twitter",
             },
           ],
         },
@@ -68,17 +68,17 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "blog",
+              label: "crafty.gg",
+              href: "https://crafty.gg",
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/craftygg",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Crafty`,
     },
     colorMode: {
       // "light" | "dark"
