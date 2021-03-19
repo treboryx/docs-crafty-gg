@@ -18,7 +18,7 @@ Kill someone.
 Usage: `/kill <user>`
 Example: `/kill Technoblade` into `Technoblade was shot to death with arrows from Darkflame72.`
 
-### pvp
+## pvp
 Start an epic PvP battle with your Discord friends, who will win?
 
 Usage `/pvp <other player>`
