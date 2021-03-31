@@ -1,3 +1,10 @@
+---
+id: fun1
+title: Fun
+sidebar_label: Fun
+slug: /bot/fun
+---
+
 # Fun Commands
 
 ## enchant
