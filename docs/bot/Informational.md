@@ -1,3 +1,10 @@
+---
+id: informational
+title: Informational
+sidebar_label: Informational
+slug: /bot/informational
+---
+
 # Informational
 
 ## colourcodes
