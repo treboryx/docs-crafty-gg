@@ -44,5 +44,37 @@ Cooldown: 15 seconds
 Arguments:
   bug ID: The ID of the bug
   
+## news
+Displays the 12 latest posts on minecraft.net
 
+Usage `/mcseen`
+
+Cooldown: 5 seconds
+
+Bot permissions required: Embed links
+
+## mcseen
+Displays a user's last login on various Minecraft multiplayer servers
+
+Usage: `/mcseen <username | uuld>`
+
+Arguments:
+  Username or UUID of user you want to search
+  
+Aliases: `/seen` 
+
+Cooldown: 30 seconds
+
+Bot permissions required: Embed links
+
+Level: Votelock
+
+## samename
+## profile
+## server
+## serverpe
+## status
+## texturesearch
+## uhc 
+## version
   
