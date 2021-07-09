@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/main.png",
+  favicon: "img/favicon.ico",
   organizationName: "craftygg", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
       title: "Crafty Docs",
       logo: {
         alt: "Crafty",
-        src: "img/main.png",
+        src: "img/c.png",
       },
       // items: [
       //   {
@@ -122,14 +122,12 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           routeBasePath: "/", // Set this value to '/'.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/treboryx/docs-crafty-gg",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          editUrl: "https://github.com/treboryx/docs-crafty-gg",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
